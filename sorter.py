@@ -38,7 +38,7 @@ def moveFile(files, names, homeDir):
                         
                         fi = f.decode("gbk")
                         if name in fi:
-                                shutil.copy(filePath, dirPath)
+                                shutil.move(filePath, dirPath)
         print "file movement finishes"
 
 
